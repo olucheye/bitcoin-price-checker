@@ -1,4 +1,39 @@
 body {
-    padding-top: 3.5rem;
-    font-size: large;
+    background-color: #E5EFF5;
+    font-family: 'Montserrat', sans-serif;
   }
+
+.jumbotron{
+  background-color: #2AB2AF;
+  color: white;
+}
+
+.coinBlock{
+  border: 1px solid #40C4C2;
+  background-color: #fff;
+  border-radius: .5em;
+  margin: 1em;
+  padding: 1em 2em;
+  display: inline-block;
+  color: #2AB2AF;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.info{
+ color: #E5EFF5;
+}
+
+h2{
+  font-size: 1.5em;
+  padding: .5em;
+  font-weight: 400;
+}
+
+p{
+  margin-left: 3em;
+  font-size: 1.5em;
+}
+
+.timeDisplay{
+  color: #C0DF34;
+}

@@ -4,9 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Ctypto Currency Live Data</title>
+    <title>Bitcoin Live</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-------------Custom font-------->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -24,35 +26,37 @@
         }
       }
     </style>
-    <!-- Custom styles for this template -->
+    <!-- Custom stylesheet -->
     <link href="main.css" rel="stylesheet">
+
   </head>
   <body>
-        <main role="main">
-
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-            <div class="container">
-            <h1 class="display-3">Crypto Currency Live Updates</h1>
-            <p class="hero">This is a demo informational website. Consuming an API, to relay updated exchange conversion rates for Crypto-currencies at local rates.</p>
-
-            <p id="time"> </p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-            </div>
+      <div class="jumbotron">
+        <div class="container text-center">
+          <h1 class="display-1 text-uppercase">Bitlive</h1>
+          <p class="lead  info">Updated exchange rate for Bitcoin at local rates.
+          </p>
+          <p class="timeDisplay">
+            <span>Last Update:</span> <span id="time"> </span>
+          </p>
+            
+          
         </div>
+      </div>
 
-        <div class="container">
-            <div class="row">
-            <!-----Content is dynamically displayed here by JS--------->
-            </div>
+      <!-------Do not edit this container-------------->
+      <div class="container">
+          <div class="row">
+          <!-----Content is dynamically displayed here by JS--------->
+          </div>
+      </div> <!-- /container -->
 
-        </div> <!-- /container -->
+    <footer class="container mt-5">
+      <div>
 
-        </main>
-
-        <footer class="container">
-        <p>&copy; oluseyeo 2020</p>
-        </footer>
+      </div>
+      <p>&copy; oluseyeo 2020</p>
+    </footer>
 <script src="index.js"></script>
 </body>
 </html>
