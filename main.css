@@ -16,23 +16,24 @@ body {
   background-color: #fff;
   border-radius: .5em;
   margin: 1rem;
-  padding: 1rem 2rem;
-  color: #2AB2AF;
+  padding: 1rem;
+ 
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 h2{
   font-size: 1.5rem;
-  padding: .5em;
   font-weight: 400;
 }
 
 p{
-  margin-left: 3em;
+  text-align: center;
   font-size: 1.5rem;
 }
 
 .disclaimer{
   color: #40C4C2;
-  font-weight: bold;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: .1em;;
 }

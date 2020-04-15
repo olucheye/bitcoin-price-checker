@@ -6,6 +6,7 @@ async function bitcoinPrices(){
     try {
         let res = await fetch(url);
         const data = await res.json(); // passing out response in Json
+        console.log(data);
 
         let updateTime = data.time.updated; // TIme at which the data was retrieved
         let disclaimer = data.disclaimer;
@@ -23,7 +24,7 @@ async function bitcoinPrices(){
             
             //append elements to each other
             document.querySelector(".row").appendChild(div);
-            div.classList.add('col-8');
+            div.classList.add('col-md-8');
             div.classList.add('mx-auto');
             div.classList.add('coinBlock');
             div.textContent = currency;
@@ -36,7 +37,8 @@ async function bitcoinPrices(){
             //h2.textContent = props.description;
 
             h2.appendChild(p);
-            p.textContent = props.code + ' ' + props.rate;
+            p.textContent = props.code + ' ' + props.rate_float;
+            p.classList.add('ml-md-5');
 
             document.querySelector('.disclaimer').textContent = disclaimer;
         };
